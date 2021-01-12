@@ -5,6 +5,8 @@
  */
 package BAI2_ToanTu_CauLenhReNhanh;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Dungna29
@@ -34,4 +36,14 @@ public class BAI_TAP_LAB1 {
     2 người cách nhau bao nhiêu tuổi.
 
     */
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);        
+        String name1 = "fpt",name2;
+        System.out.println("Mời bạn nhập tên số 2: ");
+        name2 = sc.nextLine();
+        if (name1.equals(name2)) {//Đối với việc so sánh 2 String với nhau thì không sử dụng toán tử  == mà sử dụng equals
+            System.out.println("2 bế String này bằng nhau");
+        }
+    }
 }
