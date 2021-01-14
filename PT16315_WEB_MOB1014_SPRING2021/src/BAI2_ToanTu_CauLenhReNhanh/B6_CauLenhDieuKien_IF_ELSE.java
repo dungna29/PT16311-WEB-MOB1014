@@ -11,21 +11,20 @@ import java.util.Scanner;
  *
  * @author Dungna29
  */
-public class B5_CauLenhDieuKien_IF {
+public class B6_CauLenhDieuKien_IF_ELSE {
     /*
-        Câu lệnh điều kiện IF dùng để đưa ra 1 điều kiện nào đó và 
-        thực hiện 1 hành động bên trong IF nếu IF(true) 
-        
-        - Cách dùng: if + tab
+        Bài số 6: Câu lệnh điều kiện IF ELSE (NẾU THÌ)
+        Định nghĩa: Thực hiện 1 hành động khi thỏa mãn IF(TRUE) và nếu không thỏa mãn IF
+        thì sẽ luôn vào ELSE.
         if (true) {
-            Thực hiện 1 hành động nào đó với điều kiện if phải true
+            Thực hiện 1 hành động nếu thỏa mãn điều kiện của IF
+        }else{
+            Tất cả các trường hợp không thỏa mãn IF sẽ vào ELSE
+            Thực hiện 1 hành động nào đó.
         }
-    */
     
+    */
     public static void main(String[] args) {
-        //Bài tập mẫu: Viết 1 chương trình nhập số buổi nghỉ tại 
-        //FPOLY đễ xác định mất 700k hay không?
-        
         //Bước 1: Xác định thư viện dùng và biến cần khai báo
         Scanner sc = new Scanner(System.in);
         byte nghi;
@@ -34,10 +33,10 @@ public class B5_CauLenhDieuKien_IF {
         nghi = sc.nextByte();//Gán giá trị cho biến được khởi tạo ở trên
         //Bước 3: Xử lý nghiệp vụ
         if (nghi<=4) {
-            System.out.println("Chúc mừng bạn nên nghỉ thêm");
-            return;
+            System.out.println("Chúc mừng bạn nên nghỉ thêm");           
+        }else {
+            System.out.println("Chúc mừng bạn mất 700k");
         }
-        System.out.println("Chúc mừng bạn mất 700k");
         
     }
 }
