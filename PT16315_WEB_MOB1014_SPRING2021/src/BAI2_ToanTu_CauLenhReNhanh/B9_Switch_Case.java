@@ -44,7 +44,7 @@ public class B9_Switch_Case {
             case "a"://Giá trị của case phụ thuộc vào kiểu dữ liệu truyền vào
                 System.out.println("Để ăn món này cần chờ 45p");
                 break;
-            case "b":
+            case "b":                
                 System.out.println("Để ăn món này cần chờ 15p");
                 break;
             default:
