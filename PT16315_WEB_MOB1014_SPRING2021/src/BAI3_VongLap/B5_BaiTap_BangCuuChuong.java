@@ -31,7 +31,7 @@ public class B5_BaiTap_BangCuuChuong {
         //Cách 2: Dùng While
         System.out.println("----------While-------------");
         int i = 1;
-        while (i < 10) {
+            while (i<10) {
             System.out.printf("%d x %d = %d \n", input, i, input * i);
             i++;
         }
