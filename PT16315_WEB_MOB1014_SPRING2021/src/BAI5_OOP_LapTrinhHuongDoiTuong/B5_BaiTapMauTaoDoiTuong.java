@@ -52,6 +52,21 @@ public class B5_BaiTapMauTaoDoiTuong {
         }
         System.out.println("Điểm số cao nhất trong dãy nhập vào là: " + max);
 
+        //Bài 2 đề 2 lab4
+        List<String> lstTen = new ArrayList<>();
+        int inputTen = 0;
+        System.out.println("Bạn muốn nhập vào bao nhiêu Tên Người: ");
+        input = Integer.parseInt(sc.nextLine());//Lấy số lượng điểm người dùng muốn nhập
+        for (int i = 0; i < inputTen; i++) {
+            System.out.println("Mời bạn nhập tên thứ: " + i);
+            lstTen.add(sc.nextLine());
+        }
+        System.out.println("Tất cả các tên ở vị trí lẻ");
+        for (int i = 0; i < lstTen.size(); i++) {
+            if (i % 2 !=0) {
+                System.out.println(lstTen.get(i));
+            }
+        }
     }
 
     void tao1DoiTuong() {
