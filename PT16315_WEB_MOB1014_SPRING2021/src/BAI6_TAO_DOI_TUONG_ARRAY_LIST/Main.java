@@ -109,7 +109,8 @@ public class Main {
         }
         
         /*
-            Viết 1 chương trình gồm các chức năng sau
+            Viết 1 chương trình gồm các chức năng sau - 
+        Sử dụng Switch Case
         Class: MaDV,CanNang, Tuoi,ChungLoai
         1. Thêm 1 đối tượng động vật
         2. Thêm nhiều đối tượng
